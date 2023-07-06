@@ -1,0 +1,57 @@
+.container {
+  padding: 25px;
+  background-color: rgb(180, 167, 149);
+  width: 40%;
+  border-radius: 16px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0 10px;
+  border-collapse: separate;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+td {
+  padding: 10px 16px;
+}
+
+.bg-container {
+  border: none;
+  background-color: white;
+}
+
+.enabled:hover {
+  cursor: pointer;
+}
+.enabled:active {
+  background-color: rgb(13, 252, 84);
+}
+
+.bg-container .start {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.bg-container .end {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text-end {
+  text-align: end;
+}
